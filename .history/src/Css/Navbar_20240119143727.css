@@ -7,6 +7,7 @@ nav {
 
 .item-wrapper {
     background-color:brown;
+    color: wheat;
     border-radius: 20rem;
     position: sticky;
 }
@@ -20,7 +21,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: wheat;
+    color: black;
     display: block;
     text-decoration: none;
     padding: 0.5rem;

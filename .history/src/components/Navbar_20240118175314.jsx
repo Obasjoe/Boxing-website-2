@@ -18,22 +18,21 @@ const Navbar = () => {
 
 
       {/* Nav Items */}
-      <div className='item-wrapper'>  
-        <ul>
-          <li>
-            <NavLink to="/about">ABOUT</NavLink>
-          </li>
-          <li>
-            <NavLink to="/programs">PROGRAMS</NavLink>
-          </li>
-          <li>
-            <NavLink to="/contact">CONTACT</NavLink>
-          </li>
-          <li>
-            <NavLink to="/registration">REGISTRATION</NavLink>
-          </li>
-        </ul>
-      </div>
+      <ul>
+        <li>
+          <NavLink to="/about">ABOUT</NavLink>
+        </li>
+        <li>
+          <NavLink to="/programs">PROGRAMS</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">CONTACT</NavLink>
+        </li>
+        <li>
+          <NavLink to="/registration">REGISTRATION</NavLink>
+        </li>
+      </ul>
+      
     </nav>
   )
 }

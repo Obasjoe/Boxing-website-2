@@ -2,12 +2,10 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
     top: 0;
-}
-
-.item-wrapper {
-    background-color:brown;
-    border-radius: 20rem;
+    background-color: red;
+    background: transparent 20%;
     position: sticky;
 }
 
@@ -20,7 +18,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: wheat;
+    color: black;
     display: block;
     text-decoration: none;
     padding: 0.5rem;

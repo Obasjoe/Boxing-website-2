@@ -2,13 +2,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    top: 0;
-}
-
-.item-wrapper {
-    background-color:brown;
-    border-radius: 20rem;
     position: sticky;
+    top: 0;
 }
 
 nav ul {
@@ -20,17 +15,12 @@ nav ul li {
 }
 
 nav ul li a {
-    color: wheat;
+    color: black;
     display: block;
     text-decoration: none;
     padding: 0.5rem;
     margin: 0 0.5rem;
     border-radius: 0.5rem;
-}
-
-nav ul li a:hover {
-    background-color: black;
-    color: whitesmoke;
 }
 
 nav .menu {
@@ -42,11 +32,4 @@ nav .menu {
     justify-content: space-between;
     width: 2.25rem;
     height: 2rem;
-  }
-
-  nav .menu span {
-    height: 0.4rem;
-    width: 100%;
-    background-color: black;
-    border-radius: 0.2rem;
   }

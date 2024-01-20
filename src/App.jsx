@@ -4,7 +4,6 @@ import Hero from './components/Hero'
 const App = () => {
     return (
         <BrowserRouter>
-            <Navbar />
             <Hero />
         </BrowserRouter>
     )

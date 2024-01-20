@@ -4,7 +4,7 @@ const Hero = () => {
     return (
         < >
             <div className="hero_container">
-                <p>Your text goes here</p>
+                <p>You're One Workout Away From A Good Mood</p>
             </div>
         </>
     )

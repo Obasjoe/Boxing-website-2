@@ -1,0 +1,39 @@
+import React from 'react'
+import { Link, NavLink } from 'react-router-dom'
+
+const Navbar = () => {
+  return (
+    <nav>
+      <Link to="/" className='box_logo'>
+        LOGO
+      </Link>
+
+      {/*For mobile and smaller screens */}
+      <div className='menu'>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+
+      {/* Nav Items */}
+      <ul>
+        <li>
+          <NavLink to="/about">ABOUT</NavLink>
+        </li>
+        <li>
+          <NavLink to="/programs">PROGRAMS</NavLink>
+        </li>
+        <li>
+          <NavLink to="/contact">CONTACT</NavLink>
+        </li>
+        <li>
+          <NavLink to="/registration">REGISTRATION</NavLink>
+        </li>
+      </ul>
+      
+    </nav>
+  )
+}
+
+export default Navbar

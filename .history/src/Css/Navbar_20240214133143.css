@@ -24,8 +24,8 @@ nav {
   }
   
   nav ul li a:hover {
-    background-color: Red;
-    color: white;
+    background-color: R;
+    color: black;
   }
   .active {
     background-color: black;

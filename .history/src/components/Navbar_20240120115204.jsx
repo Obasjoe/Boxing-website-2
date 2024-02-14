@@ -1,11 +1,8 @@
+import React from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import "../Css/Navbar.css"
-import { useState } from 'react'
 
 const Navbar = () => {
-
-  const [menuOpen, setMenuOpen] = useState(false)
-
   return (
     <nav>
       <Link to="/" className='box_logo'>
@@ -13,9 +10,7 @@ const Navbar = () => {
       </Link>
 
       {/*For mobile and smaller screens */}
-      <div className='menu' onClick={() => {
-        setMenuOpen(!menuOpen)
-      }}>
+      <div className='menu'>
         <span></span>
         <span></span>
         <span></span>
@@ -24,18 +19,18 @@ const Navbar = () => {
 
       {/* Nav Items */}
       <div className='item-wrapper'>  
-        <ul className={menuOpen ? "open" : ""}>
+        <ul>
           <li>
-            <NavLink to="/about"><b>ABOUT</b></NavLink>
+            <NavLink to="/about">ABOUT</NavLink>
           </li>
           <li>
-            <NavLink to="/programs"><b>PROGRAMS</b></NavLink>
+            <NavLink to="/programs">PROGRAMS</NavLink>
           </li>
           <li>
-            <NavLink to="/contact"><b>REGISTRATION</b></NavLink>
+            <NavLink to="/contact">CONTACT</NavLink>
           </li>
           <li>
-            <NavLink to="/registration"><b>CONTACT</b></NavLink>
+            <NavLink to="/registration">REGISTRATION</NavLink>
           </li>
         </ul>
       </div>

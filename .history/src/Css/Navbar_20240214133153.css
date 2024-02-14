@@ -24,11 +24,11 @@ nav {
   }
   
   nav ul li a:hover {
-    background-color: Red;
+    background-color: R;
     color: white;
   }
   .active {
-    background-color: black;
+    background-color: #495E57;
   }
   
   nav .menu {

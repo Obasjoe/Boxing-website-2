@@ -9,7 +9,6 @@
     /*justify-content: center;*/
     color: white; /* Text color */
     position:relative;
-    z-index: -1;
 }
 p{
     position: absolute;

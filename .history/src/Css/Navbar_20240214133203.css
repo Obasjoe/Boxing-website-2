@@ -24,11 +24,11 @@ nav {
   }
   
   nav ul li a:hover {
-    background-color: Red;
+    background-color: #495E57;
     color: white;
   }
   .active {
-    background-color: black;
+    background-color: #495E57;
   }
   
   nav .menu {
@@ -60,7 +60,7 @@ nav {
     }
 
     nav div .item-wrapper{
-        align-items:center;
+        align-items:center
     }
     nav ul {
       display: none;

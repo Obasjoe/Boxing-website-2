@@ -2,14 +2,13 @@
     background-image: url(../assets/boxing_website_imgjpeg.jpeg); /* Replace with the path to your background image */
     background-size: cover;
     background-position: center;
-    height: 90vh; /* Adjust the height as needed */
+    height: 100vh; /* Adjust the height as needed */
     width: 100vw;
     display: flex;
     align-items: center;
     /*justify-content: center;*/
     color: white; /* Text color */
     position:relative;
-    z-index: -1;
 }
 p{
     position: absolute;

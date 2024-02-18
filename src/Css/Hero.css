@@ -12,9 +12,14 @@
     /*background-image: url(../assets/boxing_website_imgjpeg.jpeg);*/
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Adjust the height as needed */
+    height: 90vh; /* Adjust the height as needed */
     width: 100vw;
     display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+    color: white; /* Text color */
+    position:relative;
+    z-index: -1;
     opacity: 1;
     background-attachment: fixed;
 }
